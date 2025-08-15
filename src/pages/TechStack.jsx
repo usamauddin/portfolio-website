@@ -137,7 +137,7 @@ export default function TechStack() {
                 fontFamily: "Poppins",
                 position: "absolute",
                 bottom: 7,
-                color: "white",
+                color: "#A9B4C2",
               }}
               sx={{ mt: 1, fontWeight: 400, textAlign: "center" }}
             >

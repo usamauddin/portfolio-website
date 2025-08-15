@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export default function NavigationBar() {
   const [active, setActive] = useState("Home");
   const menuItems = [
-    { label: "Home", path: "/" },
-    { label: "Tech Stack", path: "/techstack" },
+    { label: "Let's Start", path: "/" },
+    { label: "Tech stack", path: "/techstack" },
     { label: "About", path: "/about" },
   ];
 
