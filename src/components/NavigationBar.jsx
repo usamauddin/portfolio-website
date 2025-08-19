@@ -39,11 +39,11 @@ export default function NavigationBar() {
               component={Link}
               to={item.path}
               sx={{
-                fontWeight: 400,
+                fontWeight: 500,
                 fontSize: "16px",
                 color: "#fff",
                 transition: "color 0.3s ease",
-                fontFamily: "Poppins",
+                fontFamily: "Raleway",
                 textDecoration: "none",
               }}
             >

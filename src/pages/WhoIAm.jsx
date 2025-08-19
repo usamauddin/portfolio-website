@@ -39,10 +39,11 @@ const WhoIAm = () => {
       <Container maxWidth="lg" sx={{ px: 3 }}>
         <Box
           sx={{
-            display: "grid",
-            gridTemplateColumns: { xs: "1fr", lg: "1fr 1fr" },
-            gap: 6,
-            alignItems: "center",
+            display: "flex",
+            flexDirection: "column",
+            // gridTemplateColumns: { xs: "1fr", lg: "1fr 1fr" },
+            // gap: 6,
+            // alignItems: "center",
           }}
         >
           <Box>
@@ -53,19 +54,22 @@ const WhoIAm = () => {
                 fontWeight: "700",
                 mb: 3,
                 color: "hsl(210 40% 98%)",
-                fontFamily: "Poppins",
+                fontFamily: "Raleway",
+                textAlign: "center",
               }}
             >
               Who Am I
             </Typography>
-            <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+            <Box sx={{ display: "flex", flexDirection: "column", mb: 3 }}>
               <Typography
                 variant="body1"
                 sx={{
                   fontSize: "1.125rem",
                   lineHeight: 1.6,
                   color: "hsl(215 20.2% 65.1%)",
-                  fontFamily: "Poppins",
+                  fontFamily: "Livvic",
+                  fontWeight: 400,
+                  textAlign: "center",
                 }}
               >
                 Passionate backend developer with expertise in building
@@ -75,43 +79,26 @@ const WhoIAm = () => {
                   component="span"
                   sx={{
                     color: "hsl(200 100% 60%)",
-                    fontFamily: "Poppins",
+                    fontFamily: "Livvic",
+                    fontWeight: 400,
+                    textAlign: "center",
                   }}
                 >
                   {" "}
                   NestJS{" "}
                 </Typography>
-                and experienced with both SQL and NoSQL databases.
-              </Typography>
-              <Typography
-                variant="body1"
-                sx={{
-                  fontSize: "1.125rem",
-                  lineHeight: 1.6,
-                  color: "hsl(215 20.2% 65.1%)",
-                  fontFamily: "Poppins",
-                }}
-              >
-                Strong background in system design, microservices architecture,
-                and message queuing systems. Committed to writing clean,
+                and experienced with both SQL and NoSQL databases. Strong
+                background in system design, microservices architecture, and
+                message queuing systems. Committed to writing clean,
                 maintainable code and implementing best practices for
-                enterprise-level applications.
-              </Typography>
-              <Typography
-                variant="body1"
-                sx={{
-                  fontSize: "1.125rem",
-                  lineHeight: 1.6,
-                  color: "hsl(215 20.2% 65.1%)",
-                  fontFamily: "Poppins",
-                }}
-              >
-                Currently focused on
+                enterprise-level applications. Currently focused on{" "}
                 <Typography
                   component="span"
                   sx={{
                     color: "hsl(280 100% 70%)",
-                    fontFamily: "Poppins",
+                    fontFamily: "Livvic",
+                    fontWeight: 400,
+                    textAlign: "center",
                   }}
                 >
                   {" "}
@@ -122,7 +109,9 @@ const WhoIAm = () => {
                   component="span"
                   sx={{
                     color: "hsl(150 70% 60%)",
-                    fontFamily: "Poppins",
+                    fontFamily: "Livvic",
+                    fontWeight: 400,
+                    textAlign: "center",
                   }}
                 >
                   {" "}
@@ -137,7 +126,7 @@ const WhoIAm = () => {
           <Box
             sx={{
               display: "grid",
-              gridTemplateColumns: { xs: "1fr", sm: "1fr 1fr" },
+              gridTemplateColumns: { xs: "1fr", sm: "1fr 1fr 1fr 1fr" },
               gap: 2,
             }}
           >
@@ -170,7 +159,7 @@ const WhoIAm = () => {
                       fontSize: "2rem",
                       mb: 1.5,
                       transition: "transform 0.3s ease",
-                      fontFamily: "Poppins",
+                      fontFamily: "Raleway",
                     }}
                   >
                     {item.icon}
@@ -184,7 +173,7 @@ const WhoIAm = () => {
                       mb: 1,
                       color: "#00AEEF",
                       transition: "color 0.3s ease",
-                      fontFamily: "Poppins",
+                      fontFamily: "Raleway",
                     }}
                   >
                     {item.title}
@@ -195,7 +184,8 @@ const WhoIAm = () => {
                       fontSize: "0.875rem",
                       color: "hsl(215 20.2% 65.1%)",
                       lineHeight: 1.6,
-                      fontFamily: "Poppins",
+                      fontFamily: "Livvic",
+                      fontWeight: 400,
                     }}
                   >
                     {item.description}

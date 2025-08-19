@@ -74,15 +74,23 @@ export default function WhatIDo() {
   ];
   return (
     <>
-      <Box style={{ width: "100%", display: "flex", justifyContent: "center", backgroundColor: '#041C32' }}>
+      <Box
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          backgroundColor: "#041C32",
+        }}
+      >
         <Typography
           variant="h2"
-          style={{
-            fontSize: { xs: "2rem", md: "3rem" },
-            fontFamily: "Poppins",
+          sx={{
+            fontWeight: 500,
+            mb: 1,
+            fontSize: { xs: "28px", md: "40px" },
+            fontFamily: "Raleway",
             color: 'white'
           }}
-          sx={{ mt: 1, fontWeight: 700, textAlign: "center" }}
         >
           What I Do
         </Typography>
@@ -115,9 +123,8 @@ export default function WhatIDo() {
               cursor: "pointer",
               "&:hover": {
                 transform: "scale(1.1)",
-                "& .label": { color: "red" }
-              }
-              
+                "& .label": { color: "red" },
+              },
             }}
           >
             <img
@@ -134,7 +141,7 @@ export default function WhatIDo() {
               className="label"
               style={{
                 fontSize: "0.8em",
-                fontFamily: "Poppins",
+                fontFamily: "Livvic",
                 position: "absolute",
                 bottom: 7,
                 color: "#A9B4C2",

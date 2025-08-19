@@ -13,7 +13,6 @@ export default function HeroSection() {
           justifyContent: "space-between",
           backgroundColor: "#041C32",
           padding: { xs: "40px 20px", md: "80px 100px" },
-          fontFamily: "Poppins, sans-serif",
           flexWrap: "wrap",
           // margin: 0,
           // padding: 0,
@@ -27,7 +26,7 @@ export default function HeroSection() {
               fontWeight: 500,
               mb: 1,
               fontSize: { xs: "28px", md: "40px" },
-              fontFamily: "Poppins, sans-serif",
+              fontFamily: "Raleway",
             }}
           >
             Hey, I'm Usama Uddin
@@ -39,7 +38,7 @@ export default function HeroSection() {
               color: "#00AEEF",
               fontSize: { xs: "20px", md: "40px" },
               mb: 2,
-              fontFamily: "Poppins, sans-serif",
+              fontFamily: "Raleway",
             }}
           >
             Backend Engineer
@@ -47,14 +46,17 @@ export default function HeroSection() {
           <Typography
             variant="body1"
             sx={{
-              fontWeight: 300,
+              fontWeight: 400,
               lineHeight: 1.6,
               color: "#A9B4C2",
               mb: 3,
-              fontFamily: "Poppins, sans-serif",
+              fontFamily: "Livvic",
             }}
           >
-            Architecting and optimizing high-performance backend systems that scale seamlessly. Proficient in modern server-side technologies, delivering secure, efficient, and future-ready solutions that power exceptional digital experiences.
+            Architecting and optimizing high-performance backend systems that
+            scale seamlessly. Proficient in modern server-side technologies,
+            delivering secure, efficient, and future-ready solutions that power
+            exceptional digital experiences.
           </Typography>
 
           {/* Social Icons */}
