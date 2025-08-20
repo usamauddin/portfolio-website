@@ -67,6 +67,9 @@ export default function HeroSection() {
                 color: "#00AEEF",
                 "&:hover": { boxShadow: "0 0 5px #00AEEF, 0 0 20px #00AEEF" },
               }}
+              onClick={() =>
+                window.open("https://github.com/usamauddin", "_blank")
+              }
             >
               <GitHub />
             </IconButton>
@@ -75,13 +78,12 @@ export default function HeroSection() {
                 border: "2px solid #00AEEF",
                 color: "#00AEEF",
                 "&:hover": {
-                  // backgroundColor: "rgba(0,174,239,0.1)",
                   boxShadow: "0 0 5px #00AEEF, 0 0 20px #00AEEF",
                 },
-                //   ":hover": { boxShadow: 0 0 5px '#041C32', 0 0 20px "#041C32" }
               }}
-
-              // style={{ ":hover": { boxShadow: 0 0 5px '#041C32', 0 0 20px "#041C32" }}}
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/usama-uddin/", "_blank")
+              }
             >
               <LinkedIn />
             </IconButton>
@@ -91,6 +93,12 @@ export default function HeroSection() {
                 color: "#00AEEF",
                 "&:hover": { boxShadow: "0 0 5px #00AEEF, 0 0 20px #00AEEF" },
               }}
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=usamahafeez948@gmail.com",
+                  "_blank"
+                )
+              }
             >
               <Email />
             </IconButton>

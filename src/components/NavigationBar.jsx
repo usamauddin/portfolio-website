@@ -43,7 +43,7 @@ export default function NavigationBar() {
                 fontSize: "16px",
                 color: "#fff",
                 transition: "color 0.3s ease",
-                fontFamily: "Raleway",
+                fontFamily: "Livvic",
                 textDecoration: "none",
               }}
             >

@@ -31,33 +31,35 @@ export default function WhatIDo() {
       url: "https://res.cloudinary.com/dqhylmpvk/image/upload/v1754993983/Node.js_tqfsia.svg",
       label: "Node JS ",
     },
+
     {
-      url: "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
-      label: "Postman",
+      url: "https://res.cloudinary.com/dqhylmpvk/image/upload/v1755020302/kafka_d1reat.svg",
+      label: "Kafka",
     },
-    {
-      url: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000",
-      label: "Redis",
-    },
+   
     {
       url: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
       label: "Docker",
-    },
-    {
-      url: "https://img.icons8.com/?size=100&id=vArWbbq0EbTM&format=png&color=000000",
-      label: "Stripe",
     },
     {
       url: "https://res.cloudinary.com/dqhylmpvk/image/upload/v1754994614/RabbitMQ_kw72wa.svg",
       label: "RabbitMQ",
     },
     {
+      url: "https://cdn-icons-png.flaticon.com/512/6146/6146577.png",
+      label: "Microservices",
+    },
+    {
+      url: "https://img.icons8.com/?size=100&id=vArWbbq0EbTM&format=png&color=000000",
+      label: "Stripe",
+    },
+    {
       url: "https://res.cloudinary.com/dqhylmpvk/image/upload/v1754994766/Swagger_bxponq.svg",
       label: "Swagger",
     },
     {
-      url: "https://res.cloudinary.com/dqhylmpvk/image/upload/v1755020302/kafka_d1reat.svg",
-      label: "Kafka",
+      url: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000",
+      label: "Redis",
     },
     {
       url: "https://res.cloudinary.com/dqhylmpvk/image/upload/v1755021353/dg_ubswlr.svg",
@@ -70,6 +72,10 @@ export default function WhatIDo() {
     {
       url: "https://res.cloudinary.com/dqhylmpvk/image/upload/v1755021695/sockets_edgkso.svg",
       label: "Web Sockets",
+    },
+    {
+      url: "https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000",
+      label: "Postman",
     },
   ];
   return (
@@ -85,11 +91,11 @@ export default function WhatIDo() {
         <Typography
           variant="h2"
           sx={{
-            fontWeight: 500,
-            mb: 1,
-            fontSize: { xs: "28px", md: "40px" },
+            fontSize: { xs: "2rem", md: "3rem" },
+            fontWeight: "700",
+            color: "white",
             fontFamily: "Raleway",
-            color: 'white'
+            textAlign: "center",
           }}
         >
           What I Do

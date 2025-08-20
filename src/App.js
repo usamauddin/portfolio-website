@@ -4,7 +4,7 @@ import NavigationBar from "./components/NavigationBar";
 import ScrollToSection from "./components/ScrollToSection";
 import HeroSection from "./pages/HeroSection";
 import WhatIDo from "./pages/WhatIDo";
-import WhoIAm from "./pages/WhoIAm";
+import WhoIAm from "./pages/WhoAmI";
 import "./App.css";
 
 export default function App() {

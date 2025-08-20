@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, Container, Typography } from "@mui/material";
 
-const WhoIAm = () => {
+export default function WhoAmI() {
   const expertise = [
     {
       title: "System Architecture",
@@ -41,9 +41,6 @@ const WhoIAm = () => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            // gridTemplateColumns: { xs: "1fr", lg: "1fr 1fr" },
-            // gap: 6,
-            // alignItems: "center",
           }}
         >
           <Box>
@@ -53,7 +50,7 @@ const WhoIAm = () => {
                 fontSize: { xs: "2rem", md: "3rem" },
                 fontWeight: "700",
                 mb: 3,
-                color: "hsl(210 40% 98%)",
+                color: "white",
                 fontFamily: "Raleway",
                 textAlign: "center",
               }}
@@ -136,19 +133,13 @@ const WhoIAm = () => {
                 sx={{
                   p: 3,
                   backgroundColor: "#082A43",
-                  //   border: "1px solid hsl(225 15% 18% / 0.5)",
-                  //   boxShadow: "0 10px 30px -10px hsl(225 25% 3% / 0.5)",
                   transition: "all 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
                   cursor: "pointer",
                   "&:hover": {
-                    // boxShadow: "0 0 40px hsl(200 100% 60% / 0.2)",
                     transform: "scale(1.05)",
                     "& .icon": {
                       transform: "scale(1.1)",
                     },
-                    // "& .title": {
-                    //   color: "hsl(200 100% 60%)",
-                    // },
                   },
                 }}
               >
@@ -198,6 +189,4 @@ const WhoIAm = () => {
       </Container>
     </Box>
   );
-};
-
-export default WhoIAm;
+}
