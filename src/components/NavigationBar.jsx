@@ -8,10 +8,10 @@ export default function NavigationBar() {
     { label: "Let's Start", path: "/" },
     { label: "What I Do", path: "/what-i-do" },
     { label: "Who Am I?", path: "/who-am-i" },
+    { label: "Let's Connect", path: "/lets-connect" },
   ];
 
-
-  console.log('active', active)
+  // console.log("active", active);
 
   return (
     <AppBar
@@ -40,7 +40,7 @@ export default function NavigationBar() {
               to={item.path}
               sx={{
                 fontWeight: 500,
-                fontSize: "16px",
+                fontSize: "18px",
                 color: "#fff",
                 transition: "color 0.3s ease",
                 fontFamily: "Livvic",

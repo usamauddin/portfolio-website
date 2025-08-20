@@ -6,12 +6,13 @@ import HeroSection from "./pages/HeroSection";
 import WhatIDo from "./pages/WhatIDo";
 import WhoIAm from "./pages/WhoAmI";
 import "./App.css";
+import Contact from "./pages/LetsConnect";
 
 export default function App() {
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+    <Box sx={{ display: "flex", flexDirection: "column", height: "100vh" }}>
       <NavigationBar />
-      <Box component="main" sx={{ flexGrow: 1, overflowY: 'auto' }}>
+      <Box component="main" sx={{ flexGrow: 1, overflowY: "auto" }}>
         <ScrollToSection />
         <div id="home">
           <HeroSection />
@@ -21,6 +22,9 @@ export default function App() {
         </div>
         <div id="who-am-i">
           <WhoIAm />
+        </div>
+        <div id="lets-connect">
+          <Contact />
         </div>
       </Box>
     </Box>
